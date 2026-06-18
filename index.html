@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Configuración de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Adaptación a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Comic App</title>
+
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- CONTENEDOR PRINCIPAL ESTILO CÓMIC -->
+<div class="comic-card">
+
+
+    <!-- TÍTULO -->
+    <h1>
+        🌎 Weather Comic App
+    </h1>
+
+
+    <!-- PERSONAJE CÓMIC -->
+    <div class="hero">
+
+        🦸‍♂️
+
+    </div>
+
+
+    <!-- Globo de diálogo -->
+    <div class="bubble">
+
+        ¡Escribe tu ciudad y descubre el clima!
+
+    </div>
+
+
+
+    <!-- Entrada ciudad -->
+
+    <input 
+        type="text" 
+        id="city"
+        placeholder="Ciudad ejemplo: Cali"
+    >
+
+
+
+    <!-- Entrada país -->
+
+    <input 
+        type="text"
+        id="country"
+        placeholder="País ejemplo: Colombia"
+    >
+
+
+
+    <!-- Botón búsqueda -->
+
+    <button onclick="buscarClima()">
+
+        VER CLIMA ⚡
+
+    </button>
+
+
+
+    <!-- RESULTADOS -->
+
+    <section id="resultado">
+
+
+        <h2>
+            🌤 Información Climática
+        </h2>
+
+
+        <p id="ubicacion">
+            Ciudad:
+        </p>
+
+
+        <p id="celsius">
+            Celsius:
+        </p>
+
+
+        <p id="fahrenheit">
+            Fahrenheit:
+        </p>
+
+
+        <p id="estado">
+            Estado:
+        </p>
+
+
+    </section>
+
+
+
+</div>
+
+
+
+
+<!-- CRÉDITOS -->
+
+<footer>
+
+Desarrollado por  
+<br>
+
+<strong>
+Lic. Carlos Eduardo Sepúlveda Toro
+</strong>
+
+<br>
+
+Diseñador Gráfico y Desarrollador en Multimedia
+
+<br>
+
+Especialista en Edumática
+
+
+</footer>
+
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
